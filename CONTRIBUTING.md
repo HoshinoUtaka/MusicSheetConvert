@@ -10,7 +10,7 @@ The project ships with helper scripts that create a dedicated Python venv and
 install all dependencies:
 
 ```bash
-# Windows (cmd / PowerShell)
+# Windows
 scripts\install.bat
 
 # Unix / Git Bash
