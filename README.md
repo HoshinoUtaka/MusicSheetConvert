@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
 [![Tests](https://img.shields.io/badge/tests-4%20suites-brightgreen.svg)](#testing)
+[![DOI](https://img.shields.io/badge/DOI-zenodo.20604622-blue.svg)](https://doi.org/10.5281/zenodo.20604622)
 
 > A Python toolkit for converting between **staff notation**, **numbered notation
 > (jianpu)**, **MIDI**, and **MusicXML**, with built-in optical music recognition
@@ -113,13 +114,14 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for more detail.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-org>/MusicSheetConvert.git
+git clone https://github.com/Unk1ndledAC/MusicSheetConvert.git
 cd MusicSheetConvert
 ```
 
 ### 2. Create a Python venv and install dependencies
 
 ```bash
+# Change the directories in these two files to your actual Python and virtual environment paths first.
 # Windows
 scripts\install.bat
 
@@ -127,17 +129,13 @@ scripts\install.bat
 ./scripts/install.sh
 ```
 
-The install scripts create a venv at
-`C:\Users\19473\.workbuddy\binaries\python\envs\default` and install everything
-listed in `requirements.txt`.
-
 ### 3. Install external tools
 
-| Tool | Why | Where to get it | Auto-discovery on this machine |
-|------|-----|-----------------|---------------------------------|
-| **Audiveris 5.x** | Optical music recognition | <https://github.com/Audiveris/audiveris/releases> | `D:\Program Files (x86)\Audiveris\Audiveris.exe` |
-| **MuseScore 4** | Staff-notation rendering (PNG / PDF / SVG) | <https://musescore.org/download> | `D:\Program Files (x86)\MuseScore 4\bin\MuseScore4.exe` |
-| **Poppler** | PDF -> image (used by `pdf2image`) | <https://github.com/oschwartz10612/poppler-windows/releases> | `D:\Program Files (x86)\texlive\2026\bin\windows\pdftoppm.exe` (TeX Live ships one) |
+| Tool | Why | Where to get it |
+|------|-----|-----------------|
+| **Audiveris 5.x** | Optical music recognition | <https://github.com/Audiveris/audiveris/releases> |
+| **MuseScore 4** | Staff-notation rendering (PNG / PDF / SVG) | <https://musescore.org/download> |
+| **Poppler** | PDF -> image (used by `pdf2image`) | <https://github.com/oschwartz10612/poppler-windows/releases> |
 
 Set the `AUDIVERIS_EXE` and `MUSESCORE_EXE` environment variables to point at
 non-default locations. The `find_audiveris()` and `find_musescore()` helpers
