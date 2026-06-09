@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# IDEs / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project artifacts
+data/input/
+data/output/
+data/output_demo/
+data/ocr_e2e/
+data/pdf_e2e/
+data/test_input/
+data/audiveris_out/
+*.log
+*.omr
+
+# Generated PDFs / PNGs / MIDIs
+*.mid
+!data/samples/*.mid
+*.mxl
+*.musicxml
+!data/samples/*.musicxml
