@@ -120,6 +120,7 @@ cd MusicSheetConvert
 ### 2. Create a Python venv and install dependencies
 
 ```bash
+# Change the directories in these two files to your actual Python and virtual environment paths first.
 # Windows
 scripts\install.bat
 
