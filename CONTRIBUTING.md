@@ -17,23 +17,13 @@ scripts\install.bat
 ./scripts/install.sh
 ```
 
-The venv lives at `C:\Users\19473\.workbuddy\binaries\python\envs\default`.
-Activate it manually with:
-
-```bash
-# Windows
-C:\Users\19473\.workbuddy\binaries\python\envs\default\Scripts\activate
-# Unix / Git Bash
-source C:/Users/19473/.workbuddy/binaries/python/envs/default/Scripts/activate
-```
-
 ## External Dependencies
 
-| Tool | Required for | Default location (this machine) |
-|------|--------------|----------------------------------|
-| Audiveris 5.x | OMR (image/PDF -> MusicXML) | `D:\Program Files (x86)\Audiveris\Audiveris.exe` |
-| MuseScore 4   | Staff-notation rendering (PNG / PDF) | `D:\Program Files (x86)\MuseScore 4\bin\MuseScore4.exe` |
-| Poppler       | `pdf2image` (PDF -> image) | `D:\Program Files (x86)\texlive\2026\bin\windows\pdftoppm.exe` |
+| Tool | Required for |
+|------|--------------|
+| Audiveris 5.x | OMR (image/PDF -> MusicXML) |
+| MuseScore 4   | Staff-notation rendering (PNG / PDF) |
+| Poppler       | `pdf2image` (PDF -> image) |
 
 Override locations via the `AUDIVERIS_EXE`, `MUSESCORE_EXE`, and `PATH`
 environment variables respectively. The `find_audiveris()` and
