@@ -311,9 +311,7 @@ ALL OCR E2E PASSED        # ocr_e2e
 
 ## Contributing
 
-We welcome issues and pull requests. See
-[CONTRIBUTING.md](CONTRIBUTING.md) for development setup, code style, and the
-contribution workflow.
+We welcome issues and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup, code style, and the contribution workflow.
 
 ---
 
