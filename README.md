@@ -121,7 +121,7 @@ cd MusicSheetConvert
 ### 2. Create a Python venv and install dependencies
 
 ```bash
-# Change the directories in these two files to your actual Python and virtual environment paths first.
+# Modify the directories in these two files to your actual Python and virtual environment paths first.
 # Windows
 scripts\install.bat
 
@@ -311,9 +311,7 @@ ALL OCR E2E PASSED        # ocr_e2e
 
 ## Contributing
 
-We welcome issues and pull requests. See
-[CONTRIBUTING.md](CONTRIBUTING.md) for development setup, code style, and the
-contribution workflow.
+We welcome issues and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup, code style, and the contribution workflow.
 
 ---
 
