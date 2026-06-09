@@ -40,14 +40,6 @@ python tests/ocr_e2e.py          # real Audiveris + MuseScore pipeline
 
 Tests skip gracefully when an external dependency is missing.
 
-## Code Style
-
-- PEP 8, 4-space indent, type hints encouraged.
-- All comments, docstrings, log messages, and CLI help text are in **English**.
-- Module structure mirrors responsibility: `core.py` for pure-Python
-  conversion, `advanced.py` for score builders, `ocr/`, `preprocess/`, `render/`
-  for their respective adapters.
-
 ## Submitting Changes
 
 1. Fork the repository and create a feature branch.
